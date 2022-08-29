@@ -1,0 +1,288 @@
+@media(max-width:1140px){
+    .film__card{
+        flex-shrink: 0;
+        
+    }
+    .film__box{
+        gap: 30px;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .film__box::-webkit-scrollbar{
+        height: 3px;
+    }
+    .film__box::-webkit-scrollbar-thumb{
+        background: linear-gradient(90.09deg, #3800af 0%, #bf7204 97.52%, #c27500 100%, #c27500 100%);;
+    }
+    .collect__card{
+        flex-shrink: 0;
+        
+    }
+    .collect__box{
+        gap: 30px;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .collect__card:hover{
+        box-shadow: none;
+        background-position: center;
+    }
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(4,1fr);
+        max-width: 540px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media(max-width:900px){
+    .widow{
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+@media(max-width:700px){
+    .footer__box{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer{
+        margin-top: 30px;
+        padding: 15px 0;
+    }
+}
+@media(max-width:650px){
+    .header{
+        position: relative;
+        overflow: hidden;
+    }
+    .nav__list{
+        flex-direction: column;
+        position: absolute;
+        background-color: #000;
+        top: -80px;
+        padding: 0 70px;
+        align-items: center;
+        height: 100vh;
+        padding-top: 50px;
+        right: -220px;
+        z-index: 100;
+        transition: 1s;
+    }
+    .nav{
+        padding: 20px 0;
+    }
+    .nav__link span{
+        padding: 20px 0;
+    }
+    .close{
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        display: block;
+    }
+    .bar{
+        display: block;
+    }
+    .check-box:checked~.nav__list{
+        right: 0;
+    }
+    .intro{
+        height: 500px;
+    }
+    .intro__title{
+        font-size: 50px;
+        line-height: 120%;
+    }
+    .intro__text{
+        margin: 30px 0;
+    }
+    .nav__logo img{
+        width: 80px;
+    }
+    .nav__logo{
+        font-size: 14px;
+    }
+    .header__top{
+        padding: 15px 0;
+    }
+    .link{
+        width: 140px;
+        height: 40px;
+    }
+    .title{
+        margin: 30px 0;
+        font-size: 30px;
+    }
+    .widow{
+        height: 450px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .widow__title{
+        width: 400px;
+        margin-top: 30px;
+    }
+    .widow__text{
+        margin: 30px 0;
+    }
+    .game{
+        height: 370px;
+    }
+    .game__title{
+        font-size: 35px;
+        line-height: 120%;
+    }
+    .game__text{
+        margin: 20px 0;
+        text-align: justify;
+        font-size: 14px;
+        line-height: 150%;
+        
+    }
+}
+@media(max-width:550px){
+    .grid{
+        display: flex;
+        overflow: hidden;
+        overflow-x: auto;
+    }
+    .grid__box{
+        flex-shrink: 0;
+        max-width: 255px;
+        width: 100%;
+        background-position: center;
+    }
+    .grid__box span{
+        font-size: 35px;
+    }
+    .grid__title{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:500px){
+    .intro{
+        height: 400px;
+    }
+    .intro__title{
+        font-size: 35px;
+    }
+    .intro__link{
+        margin-left: 15px;
+    }
+    .link{
+        width: 120px;
+        height: 35px;
+        font-size: 13px;
+    }
+    .widow{
+        height: 400px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+    }
+    .widow__title{
+        width: 350px;
+        margin-top: 30px;
+    }
+    .widow__text{
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .game{
+        height: 320px;
+    }
+    .game__title{
+        font-size:30px ;
+    }
+    .game__text{
+        font-size: 14px; 
+        line-height: 130%;
+        margin: 15px 0;
+    }
+    .game .link{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+@media(max-width:400px){
+    .game__title{
+        font-size: 20px;
+    }
+    .game__text{
+        font-size: 13px;
+        line-height: 120%;
+        margin: 10px 0;
+    }
+    .footer__text{
+        font-size: 16px;
+        text-align: center;
+    }
+    .footer__btns{
+        gap: 30px;
+    }
+   
+}
+@media(max-width:360px){
+    .bar{
+        font-size: 25px;
+    }
+    .intro__title{
+        font-size: 25px;
+    }
+    .intro__text{
+        font-size: 13px;
+    }
+    .nav__logo img{
+        width: 60px;
+    }
+    .close{
+        font-size: 25px;
+    }
+    .nav__list{
+        padding-left: 40px;
+        padding-right: 40px;
+        gap:0; 
+    }
+    .title{
+        margin: 15px 0;
+        font-size: 25px;
+    }
+    .widow{
+        height: 360px;
+    }
+    .widow__title{
+        max-width: 300px;
+        width: 100%;
+    }
+    .widow__text{
+        font-size: 15px;
+        line-height: 130%;
+        margin: 20px 0;
+    }
+    .collect__card{
+        height: 160px;
+    }
+    .collect__left,
+    .collect__right{
+        height: 145px;
+    }
+    .collect__card span{
+        font-size: 30px;
+    }
+    .collect__title{
+        font-size: 16px;
+    }
+    .intro{
+        height: 300px;
+    }
+    .game__title{
+        font-size: 18px;
+    }
+    .game__text{
+        font-size: 12px;
+    }
+} 
